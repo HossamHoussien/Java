@@ -1,0 +1,33 @@
+Processes Order According To Its Execution Order: 
+******************************************
+Start Time         Process Name            End Time
+ 0 		Q1P1 		2
+ 3 		Q3P1 		5
+ 6 		Q3P2 		8
+ 9 		Q3P3 		11
+ 12 		Q3P1 		14
+ 15 		Q3P2 		16
+ 17 		Q3P1 		18
+ 19 		Q2P1 		28
+ 29 		Q2P2 		31
+ 32		Q1P2 		35
+ 36		Q1P1 		42
+ 43		Q1P3 		49
+
+
+Processes Turn-Around Time: 
+******************************************
+Q3P3 with turnaround time = 6
+Q3P2 with turnaround time = 12
+Q3P1 with turnaround time = 16
+Q2P1 with turnaround time = 26
+Q2P2 with turnaround time = 23
+Q1P2 with turnaround time = 32
+Q1P1 with turnaround time = 42
+Q1P3 with turnaround time = 43
+
+Average Turn-Around Time Per Queue: 
+*********************************
+Q3 11.333333333333334 ms
+Q2 24.5 ms
+Q1 39.0 ms

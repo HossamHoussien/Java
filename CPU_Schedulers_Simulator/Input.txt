@@ -1,0 +1,13 @@
+3
+Name=Q1;Priority=1;Algorithm=SJF;No_Processes=3
+Name=Q2;Priority=2;Algorithm=FCFS;No_Processes=2
+Name=Q3;Priority=3;Algorithm=RR;No_Processes=3
+
+Q1;ProcessName=Q1P1;ArrivalTime=0;BurstTime=8
+Q1;ProcessName=Q1P2;ArrivalTime=3;BurstTime=3
+Q1;ProcessName=Q1P3;ArrivalTime=6;BurstTime=6
+Q2;ProcessName=Q2P1;ArrivalTime=2;BurstTime=9
+Q2;ProcessName=Q2P2;ArrivalTime=8;BurstTime=2
+Q3;ProcessName=Q3P1;ArrivalTime=2;BurstTime=5
+Q3;ProcessName=Q3P2;ArrivalTime=4;BurstTime=3
+Q3;ProcessName=Q3P3;ArrivalTime=5;BurstTime=2
